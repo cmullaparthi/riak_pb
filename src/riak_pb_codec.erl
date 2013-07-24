@@ -125,6 +125,10 @@ msg_type(50) -> rpbcounterupdatereq;
 msg_type(51) -> rpbcounterupdateresp;
 msg_type(52) -> rpbcountergetreq;
 msg_type(53) -> rpbcountergetresp;
+msg_type(54) -> rpbyokozunaindexgetreq;
+msg_type(55) -> rpbyokozunaindexgetresp;
+msg_type(56) -> rpbyokozunaindexputreq;
+msg_type(57) -> rpbyokozunaindexdeletereq;
 msg_type(_) -> undefined.
 
 %% @doc Converts a symbolic message name into a message code. Replaces
