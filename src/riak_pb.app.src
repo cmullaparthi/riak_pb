@@ -6,7 +6,10 @@
   {applications, [
                   kernel,
                   stdlib,
-                  protobuffs
+                  erlang_protobuffs
                  ]},
-  {env, []}
+  {env, []},
+  {modules, [
+    %MODULES%
+  ]}
  ]}.
